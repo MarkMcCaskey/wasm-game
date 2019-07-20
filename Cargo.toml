@@ -1,0 +1,16 @@
+[package]
+name = "wasm-game"
+version = "0.1.0"
+authors = ["Mark McCaskey <maoeurk@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+fern = { version = "0.5", features = ["colored"] }
+log = "0.4"
+num-traits = "0.2"
+num-derive = "0.2"
+sdl2 = "0.32"
+specs = "0.15"
+wasmer-clif-backend = "0.5"
+wasmer-runtime = "0.5"
+wasmer-runtime-core = "0.5"
